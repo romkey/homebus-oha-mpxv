@@ -1,0 +1,45 @@
+GIT
+  remote: https://github.com/HomeBusProjects/ruby-homebus
+  revision: f0fff8e41734fee104259ee626e257a0cadd2eff
+  branch: main
+  specs:
+    homebus (0.30.2)
+      mqtt (~> 0.5.0)
+
+PATH
+  remote: .
+  specs:
+    homebus-oha-hmpxv (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.2.2)
+    dotenv (2.8.1)
+    mini_portile2 (2.8.0)
+    mqtt (0.5.0)
+    nokogiri (1.13.8)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
+    racc (1.6.0)
+    stringio (3.0.2)
+    time (0.2.0)
+      date
+    uri (0.11.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  homebus (>= 0.30.1)!
+  homebus-oha-hmpxv!
+  nokogiri
+  open-uri
+
+BUNDLED WITH
+   2.1.4

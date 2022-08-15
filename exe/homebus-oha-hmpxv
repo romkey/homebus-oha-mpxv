@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'homebus-oha-monkeypox/options'
+require 'homebus-oha-monkeypox/app'
+
+app_options = HomebusOHAhMPXV::Options.new
+
+app = HomebusOHAhMPXV::App.new app_options.options
+app.run!
