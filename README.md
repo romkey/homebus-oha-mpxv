@@ -1,5 +1,7 @@
-# Monkeypox tracker
+# Homebus hMPXV (Monkeypox) Publisher
 
-https://www.oregon.gov/oha/ph/monkeypox/Pages/index.aspx
+Homebus publisher that page scrapes data from [Oregon Health
+Authority's hMPXV site](https://www.oregon.gov/oha/ph/monkeypox/Pages/index.aspx).
 
-cases by county
+The publisher creates a device per county and publishes updates for
+that county to its device.
