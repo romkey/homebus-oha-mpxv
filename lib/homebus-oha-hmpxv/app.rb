@@ -65,7 +65,11 @@ class HomebusOHAhMPXV::App < Homebus::App
       device.publish! DDC, payload
     end
 
-    sleep 60
+    sleep update_interval
+  end
+
+  def update_interval
+    60 * 60 * 3
   end
 
   def name
