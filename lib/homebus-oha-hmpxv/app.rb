@@ -27,7 +27,6 @@ class HomebusOHAhMPXV::App < Homebus::App
 
   def _find(tadas, county)
     tadas.each_with_index do |val, index|
-      puts "trying to match #{county} with #{val.text}"
       if val.text.chomp(' ') == county
         return tadas[index+1].text.to_i
       end
