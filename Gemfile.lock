@@ -15,6 +15,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     date (3.2.2)
+    diff-lcs (1.5.0)
     dotenv (2.8.1)
     mini_portile2 (2.8.0)
     nokogiri (1.13.9)
@@ -26,6 +27,19 @@ GEM
       uri
     paho-mqtt (1.0.12)
     racc (1.6.0)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.1)
     stringio (3.0.2)
     time (0.2.0)
       date
@@ -40,6 +54,7 @@ DEPENDENCIES
   homebus-oha-hmpxv!
   nokogiri
   open-uri
+  rspec
 
 BUNDLED WITH
    2.1.4
