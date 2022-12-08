@@ -17,7 +17,7 @@ GEM
     date (3.2.2)
     dotenv (2.8.1)
     mini_portile2 (2.8.0)
-    nokogiri (1.13.9)
+    nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     open-uri (0.2.0)
@@ -25,7 +25,7 @@ GEM
       time
       uri
     paho-mqtt (1.0.12)
-    racc (1.6.0)
+    racc (1.6.1)
     stringio (3.0.2)
     time (0.2.0)
       date
